@@ -1,0 +1,96 @@
+.b1{
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.b2{
+   position: absolute;
+
+    bottom: 0px;
+    width: 100px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.b3{
+    position: absolute;
+ 
+     right: 0px;
+     width: 100px;
+     border: 3px solid #73AD21;
+     padding: 10px;
+ }
+
+ .b4{
+    position: absolute;
+ 
+     bottom: 0px;
+     right: 0px;
+     width: 100px;
+     border: 3px solid #73AD21;
+     padding: 10px;
+ }
+
+ .b9{
+    position: absolute;
+    
+     left: 660px;
+     top:290px;
+     width: 100px;
+     border: 3px solid #73AD21;
+     padding: 10px;
+ }
+
+
+.b5{
+    position: absolute;
+    
+     left: 660px;
+     top:220px;
+     width: 100px;
+     border: 3px solid #73AD21;
+     padding: 10px;
+ }
+
+ .b6{
+    position: absolute;
+    
+     left: 660px;
+     top:350px;
+     width: 100px;
+     border: 3px solid #73AD21;
+     padding: 10px;
+ }
+
+
+.b7{
+    position: absolute;
+    
+     left: 790px;
+     top:290px;
+     width: 100px;
+     border: 3px solid #73AD21;
+     padding: 10px;
+ 
+    }
+
+
+    .b8{
+        position: absolute;
+        
+         left: 530px;
+         top:290px;
+         width: 100px;
+         border: 3px solid #73AD21;
+         padding: 10px;
+     
+        }
+    
+
+
+
+
+
+
+
