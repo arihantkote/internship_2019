@@ -4,8 +4,8 @@ function add()
     a=Number(document.getElementById("first").value);
     b=Number(document.getElementById("second").value);
     c= a + b;
-    document.getElementById("answer").value= c;
-    }
+  document.getElementById("answer").value= c;
+}
     
     
     
