@@ -32,4 +32,7 @@ var timeHTML = document.getElementById("timeHTML");
 
 todayHTML.innerHTML = "today is " + daylist[day];
 timeHTML.innerHTML = "the time is " + hour + suffix + " " + min;
+
+
 }
+
