@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>largest of 5 nos</title>
+    <script>
+    
+    function lg() {
+    var a = [(document.getElementById('no1').value),
+        (document.getElementById('no2').value),
+        (document.getElementById('no3').value),
+        (document.getElementById('no4').value),
+        (document.getElementById('no5').value)
+    ];
+    var b = 0;
+    var i;
+    for (i = 0; i < a.length; i++) {
+        if (a[i] > b) {
+            b = a[i];
+        }
+    }
+    alert("greatest no is=" + b);
+}
+
+    </script>
+</head>
+
+<body>
+    enter no 1<input type="number" id="no1"> <br><br> enter no 2<input type="number" id="no2"><br><br> enter no 3<input type="number" id="no3"><br><br> enter no 4<input type="number" id="no4"><br><br> enter no 5<input type="number" id="no5"><br><br>
+    <button onclick="lg()">click here to compare</button>
+</body>
+
+
+</html>
