@@ -17,6 +17,7 @@ for (var i = 0; i < slent ; i++)
     for (var j=0;j<array1.length;j++) {
         if ((i & Math.pow(2,j))){ 
             temp += array1[j];
+            
         }
     }
     if (temp !== "")
@@ -25,5 +26,5 @@ for (var i = 0; i < slent ; i++)
     }
 }
   d=combi.join("\n");
-  document.getElementById("listboxx").value=d;
+  document.getElementById("listboxx").innerHTML+=d;
 }
