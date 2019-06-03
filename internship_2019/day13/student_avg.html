@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>grade of students</title>
+    <script>
+    function avg() {
+    var a = [Number(document.getElementById('no1').value),
+        Number(document.getElementById('no2').value),
+        Number(document.getElementById('no3').value),
+        Number(document.getElementById('no4').value),
+        Number(document.getElementById('no5').value)
+    ];
+    var b = 0;
+    var i;
+    for (i = 0; i < a.length; i++) {
+        b = b + a[i];
+    }
+    b = b / 5;
+    if (b < 60) {
+        document.getElementById('result').innerHTML = "average is=" + b + "grade is=f";
+    } else if (b < 70) {
+        document.getElementById('result').innerHTML = "average is=" + b + "grade is=d";
+
+    } else if (b < 80) {
+        document.getElementById('result').innerHTML = "average is=" + b + "grade is=c";
+
+    } else if (b < 90) {
+        document.getElementById('result').innerHTML = "average is=" + b + "grade is=b";
+
+    } else if (b <= 100) {
+        document.getElementById('result').innerHTML = "average is=" + b + "grade is=a";
+
+    } else {
+        document.getElementById('result').innerHTML = "entered wrong nos";
+
+    }
+}
+    </script>
+</head>
+
+<body>
+    enter marks of student 1<input type="number" id="no1"> <br><br> enter marks of student 2<input type="number" id="no2"><br><br> enter marks of student 3<input type="number" id="no3"><br><br> enter marks of student 4<input type="number" id="no4"><br><br>    enter marks of student 5<input type="number" id="no5"><br><br>
+    <button onclick="avg()">click here check average</button>
+    <p id="result"></p>
+</body>
+
+</html>
