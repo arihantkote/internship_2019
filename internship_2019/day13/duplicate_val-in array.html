@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>duplicate value in array</title>
+    <script>
+    
+    
+    
+   
+    var a = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+
+var item;
+for (var i = 0; i < a.length; i++) {
+
+    for (var j = i + 1; j < a.length; j++) {
+        if (a[i] == a[j]) {
+            item = a[i];
+        }
+    }
+    console.log(item + "=duplicate");
+
+}
+    
+    
+    
+    
+    
+    
+    </script>
+</head>
+
+<body>
+    <p>plz go to console to see the output</p>
+</body>
+
+</html>
